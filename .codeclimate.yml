@@ -1,0 +1,24 @@
+engines:
+  pmd:
+    enabled: true
+    checks:
+      AvoidFieldNameMatchingMethodName:
+        enabled: false
+      LocalVariableCouldBeFinal:
+        enabled: false
+      MethodArgumentCouldBeFinal:
+        enabled: false
+      MissingBreakInSwitch:
+        enabled: false
+    config:
+      rules:
+        - "java-basic"
+        - "java-design"
+        - "java-empty"
+        - "java-naming"
+        - "java-optimizations"
+        - "java-unnecessary"
+        - "java-unusedcode"
+ratings:
+  paths:
+  - "**.java"

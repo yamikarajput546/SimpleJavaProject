@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the new BSD License.
+ *
+ * Copyright (c) 2012-2018, Sebastian Staudt
+-->
+
+<project xmlns="http://maven.apache.org/DECORATION/1.7.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/DECORATION/1.7.0
+                             http://maven.apache.org/xsd/decoration-1.7.0.xsd">
+
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>1.7</version>
+    </skin>
+
+    <body>
+        <menu name="Overview">
+            <item name="Usage" href="usage.html" />
+            <item name="Goals" href="plugin-info.html" />
+            <item name="Changelog" href="CHANGELOG.html" />
+            <item name="Contributors" href="CONTRIBUTORS.html" />
+        </menu>
+        <menu ref="reports" />
+    </body>
+
+    <custom>
+        <fluidoSkin>
+            <gitHub>
+                <projectId>koraktor/mavanagaiata</projectId>
+                <ribbonOrientation>right</ribbonOrientation>
+                <ribbonColor>black</ribbonColor>
+            </gitHub>
+            <ohloh>
+                <projectId>mavanagaiata</projectId>
+                <widget>factoids</widget>
+            </ohloh>
+        </fluidoSkin>
+    </custom>
+
+    <googleAnalyticsAccountId>UA-258817-5</googleAnalyticsAccountId>
+
+</project>
